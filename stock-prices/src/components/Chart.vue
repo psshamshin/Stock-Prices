@@ -28,7 +28,7 @@ export default {
             labels: props.stockPriceData.map((data) => data.date),
             datasets: [
               {
-                label: "Stock Price",
+                label: "Рыночная цена, $",
                 data: props.stockPriceData.map((data) => data.price),
                 borderColor: "blue",
                 borderWidth: 1,
